@@ -1,0 +1,32 @@
+{
+  "name": "typelight",
+  "version": "1.0.1",
+  "description": "Validation for string, object, numbers, and arrays",
+  "main": "./dist/index.js",
+  "types": "./typings/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Typecordts/Typelight.git"
+  },
+  "author": "Wayvshock",
+  "license": "Apache-2.0",
+  "keywords": [
+    "Types",
+    "Typescript",
+    "Validation",
+    "Strings"
+  ],
+  "bugs": {
+    "url": "https://github.com/Typecordts/Typelight/issues"
+  },
+  "homepage": "https://github.com/Typecordts/Typelight#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}

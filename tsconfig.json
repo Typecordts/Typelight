@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ESNext",
+        "strict": true,
+        "strictPropertyInitialization": true,
+        "pretty": true,
+        "outDir": "./dist",
+        "esModuleInterop": true,
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
