@@ -1,4 +1,5 @@
-# Typelight
+![Typelight-Transparent](https://user-images.githubusercontent.com/61085765/148261623-a3125891-1c2a-40cb-b928-2ac7f7f9ef40.png)
+
 Validation for strings, objects, numbers, and arrays.
 
 # Examples of use
