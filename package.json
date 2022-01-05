@@ -1,8 +1,9 @@
 {
-  "name": "typelight",
+  "name": "@typecord/typelight",
   "version": "1.0.0",
   "description": "Validation for string, object, numbers, and arrays",
   "main": "./dist/index.js",
+  "types": "./typings",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

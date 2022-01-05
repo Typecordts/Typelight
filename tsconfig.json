@@ -4,8 +4,8 @@
         "target": "ESNext",
         "strict": true,
         "strictPropertyInitialization": true,
-        "watch": true,
         "pretty": true,
+        "outDir": "./dist",
         "esModuleInterop": true,
     },
     "exclude": [

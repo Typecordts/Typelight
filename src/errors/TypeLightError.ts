@@ -15,9 +15,9 @@ export class TypeLightError extends TypeError {
         }
 
         if (options && options.hasColor) {
-            return new this(chalk.red(message, `\n${reason ? reason : ""}\nErrCode: ${code ? code : ""}`));
+            return new this(chalk.red(message, `\n${reason ? `Reason: ${reason}` : ""}\n${code ? `ErrCode: ${code}` : ""}`));
         } else {
-            return new this(chalk.whiteBright(message, `\n${reason ? reason : ""}\nErrCode: ${code ? code : ""}`));
+            return new this(chalk.whiteBright(message, `\n${reason ? `Reason: ${reason}` : ""}\n${code ? `ErrCode: ${code}` : ""}`));
         }
     }
 }
